@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- <include file="$(find package_name)/launch/other_launch_file.launch"/> -->
+    <include file="$(find robotparams)/launch/robotparams.launch"/>
+    <node name="robotserial" pkg="robotserial" type="robotserial_node" output="screen"/>
+    
+    <!-- <node name="robottest" pkg="robottest" type="robottest_node" output="screen"/> -->
+    
+
+</launch>

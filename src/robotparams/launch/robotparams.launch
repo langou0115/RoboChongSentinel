@@ -1,0 +1,15 @@
+<launch>
+    <param name="gimbalPx" value="0" type="double"/>
+    <param name="gimbalIx" value="0" type="double"/>
+    <param name="gimbalDx" value="0" type="double"/>
+
+    <param name="gimbalPy" value="0" type="double"/>
+    <param name="gimbalIy" value="0" type="double"/>
+    <param name="gimbalDy" value="0" type="double"/>
+
+    <param name="gimbalPz" value="0" type="double"/>
+    <param name="gimbalIz" value="0" type="double"/>
+    <param name="gimbalDz" value="0" type="double"/>
+
+    <node name="dynamicServer" pkg="robotparams" type="dynamicServer.py" output="screen"/>
+</launch>
