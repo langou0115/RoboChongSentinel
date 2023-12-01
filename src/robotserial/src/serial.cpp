@@ -5,6 +5,7 @@ BaseVel basevel;
 
 /**
  * @brief 将云台速度信息发送给下位机
+ * @author zhuyiming
  * 
  * @param msg 云台速度信息
  */
@@ -22,6 +23,7 @@ void gimbal_velcmd_cb(const geometry_msgs::Twist::ConstPtr &msg)
 
 /**
  * @brief 将底盘速度信息发送给下位机
+ * @author zhuyiming
  * 
  * @param msg 底盘速度信息
  */
