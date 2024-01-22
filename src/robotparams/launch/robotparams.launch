@@ -1,15 +1,15 @@
 <launch>
-    <param name="gimbalPx" value="0" type="double"/>
-    <param name="gimbalIx" value="0" type="double"/>
-    <param name="gimbalDx" value="0" type="double"/>
+    <param name="gimbal_px" value="0" type="double"/>
+    <param name="gimbal_ix" value="0" type="double"/>
+    <param name="gimbal_dx" value="0" type="double"/>
 
-    <param name="gimbalPy" value="0" type="double"/>
-    <param name="gimbalIy" value="0" type="double"/>
-    <param name="gimbalDy" value="0" type="double"/>
+    <param name="gimbal_py" value="0" type="double"/>
+    <param name="gimbal_iy" value="0" type="double"/>
+    <param name="gimbal_dy" value="0" type="double"/>
 
-    <param name="gimbalPz" value="0" type="double"/>
-    <param name="gimbalIz" value="0" type="double"/>
-    <param name="gimbalDz" value="0" type="double"/>
+    <param name="gimbal_pz" value="0" type="double"/>
+    <param name="gimbal_iz" value="0" type="double"/>
+    <param name="gimbal_dz" value="0" type="double"/>
 
     <node name="dynamicServer" pkg="robotparams" type="dynamicServer.py" output="screen"/>
 </launch>

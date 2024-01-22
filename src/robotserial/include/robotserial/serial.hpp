@@ -17,13 +17,13 @@ struct GimbalVel
  * 发送底盘的速度，vel是线速度，roll yaw pitch是角速度
 */
 struct BaseVel{
-    double velx;
-    double vely;
-    double velz;
+    double vel_x;
+    double vel_y;
+    double vel_z;
     double yaw;
 };
 
-void gimbal_velcmd_cb(const geometry_msgs::Twist::ConstPtr& msg);
-void base_velcmd_cb(const geometry_msgs::Twist::ConstPtr& msg);
+void gimbalVelcmdCb(const geometry_msgs::Twist::ConstPtr& msg);
+void baseVelcmdCb(const geometry_msgs::Twist::ConstPtr& msg);
 
 #endif // !_SERIAL_H_
